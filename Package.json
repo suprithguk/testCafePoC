@@ -4,6 +4,7 @@
     "test:dataDriven": "testcafe chrome:headless tests/dataDriven/*.js src/images --take-snapshot dataDriven"
   },
   "dependencies": {
+    "node-xlsx": "^0.15.0",
     "testcafe": "1.9.1",
     "testcafe-blink-diff": "^0.4.6"
   }
